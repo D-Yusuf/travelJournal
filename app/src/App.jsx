@@ -11,7 +11,7 @@ function App() {
   })
 
   return (
-    <div className="max-w-lg mx-auto flex flex-col my-3 rounded-xl bg-gray-50">
+    <div className="md:max-w-xl max-w-sm mx-auto flex flex-col my-3 rounded-xl bg-gray-50 px-2">
       <Header />
       {places}
     </div>
