@@ -2,7 +2,7 @@ export default function Place(props){
     const { placeName, date, coverImg, country, googleMaps, description } = props;
     const dateString = `${date.from.day} ${date.from.monthShort}, ${date.from.year} - ${date.to.day} ${date.to.monthShort}, ${date.to.year}`
     return(
-        <div className="pt-1 flex flex-wrap md:flex-nowrap space-x-10 space-y-10 md:space-y-0 items-center border-b-4 mb-5">
+        <div className="pt-1 flex flex-wrap md:flex-nowrap space-x-10 space-y-10 md:space-y-0 items-center border-b-4 mb-5 min-h-[20rem]">
             <div className="md:w-1/2">
                 <img className="md:max-h-none rounded-sm" src={coverImg} alt={placeName} />
             </div>
